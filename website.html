@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vito Cars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Vito Cars</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by name, category...">
+        </div>
+        <div class="user-links">
+            <a href="#"><i class="fas fa-users"></i> Community</a>
+            <a href="#"><i class="fas fa-user"></i> Account</a>
+            <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </div>
+    </header>
+    <main>
+        <div class="banners-container">
+            <div class="banner">
+                <img src="Red Black Modern Car Service Banner.png" alt="Large Banner" class="large-banner">
+            </div>
+            <div class="column-banners">
+                <img src="_Super Weekend Sale Banner .png" alt="Small Banner 1" class="small-banner">
+                <img src="Blue and Black Simple Coming Soon Banner.png" alt="Small Banner 2" class="small-banner">
+            </div>
+        </div>
+        <div class="photo-gallery">
+            <div class="photo-item">
+                <img src="pexels-pixabay-159293.jpg" alt="Engines">
+                <h3>Engines</h3>
+                <button>Shop Now</button>
+            </div>
+            <div class="photo-item">
+                <img src="Evonik.jpg" alt="Electromagnetic Battery">
+                <h3>Electromagnetic Battery</h3>
+                <button>Shop Now</button>
+            </div>
+            <div class="photo-item">
+                <img src="electromagnetic-toothed-coupling-clutch-500x500.webp" alt="Transmissions">
+                <h3>Transmissions</h3>
+                <button>Shop Now</button>
+            </div>
+            <div class="photo-item">
+                <img src="dependent-suspension-system-609e2c07c6736.jpg" alt="Suspension System">
+                <h3>Suspension System</h3>
+                <button>Shop Now</button>
+            </div>
+            <div class="photo-item">
+                <img src="47385.jpg" alt="Breaking System">
+                <h3>Breaking System</h3>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        <div class="products-container">
+            <div class="products-container">
+                <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+
+              </div>
+            <div class="product-item">
+                <img src="1.jpg" alt="Product 1">
+                <h3>Car trunk liner</h3>
+                <p>€30</p>
+                <button>Shop Now</button>
+            </div>
+            <div class="product-item">
+                <img src="car-sun-shades-1653312983.jpg" alt="Product 2">
+                <h3>Sun protection for cars</h3>
+                <p>€44</p>
+                <button>Shop Now</button>
+            </div>
+            <div class="product-item">
+                <img src="imageService.webp" alt="Product 3">
+                <h3>Car trunk liner</h3>
+                <p>€25</p>
+                <button>Shop Now</button>
+            </div>
+            <div class="product-item">
+                <img src="545321539_0340_0340.jpg" alt="Product 4">
+                <h3>Black film for car windows</h3>
+                <p>€16</p>
+                <button>Shop Now</button>
+            </div>
+            <div class="product-item">
+                <img src="steering-wheel-cover-500x500.webp" alt="Product 5">
+                <h3>Car steering wheel cover</h3>
+                <p>€199</p>
+                <button>Shop Now</button>
+            </div>
+            <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+    </main>
+</body>
+</html>

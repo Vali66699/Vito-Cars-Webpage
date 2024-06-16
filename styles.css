@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.user-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.banners-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.banner .large-banner {
+    width: 100%;
+    height: auto;
+}
+
+.column-banners {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column-banners .small-banner {
+    width: 100%;
+    height: auto;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.photo-item {
+    flex: 1 1 150px;
+    max-width: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.photo-item h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.photo-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.photo-item button:hover {
+    background-color: #0056b3;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.product-item {
+    flex: 1 1 200px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.product-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.product-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #0056b3;
+}
+
+.prev, .next {
+  border: none;
+  border-radius: 50%; /* make the button circular */
+  background-color: #fff; /* optional: set a background color */
+  padding: 10px; /* optional: add some padding */
+  font-size: 24px; /* optional: increase the font size */
+  cursor: pointer; /* optional: change the cursor shape */
+}
+
+.prev:hover, .next:hover {
+  background-color: #ccc; /* optional: change the background color on hover */
+}
+
